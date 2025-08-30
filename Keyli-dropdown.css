@@ -1,0 +1,35 @@
+/* KeyliDropdown CSS */
+.searchable-dropdown {
+  position: relative;
+  width: 200px;
+}
+
+.searchable-dropdown input {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.options-list {
+  position: absolute;
+  max-height: 150px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: none;
+  z-index: 9999;
+}
+
+.options-list li {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.options-list li:hover {
+  background: #f3f4f6;
+}
